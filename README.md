@@ -8,7 +8,7 @@ Add next lines to `import_map.json`.
   "imports": {
     ...
     "youtube/": "https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/master/types/youtube/",
-    "fresh-youtube-player/": "https://deno.land/x/fresh_youtube_player@0.9.0/"
+    "fresh-youtube-player/": "https://deno.land/x/fresh_youtube_player@0.9.3/"
   }
 }
 ```
