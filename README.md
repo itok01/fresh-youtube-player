@@ -7,8 +7,7 @@ Add next lines to `import_map.json`.
 {
   "imports": {
     ...
-    "fresh-youtube-player": "https://deno.land/x/fresh-youtube-player@0.9.0",
-    "fresh-youtube-player/": "https://deno.land/x/fresh-youtube-player@0.9.0/"
+    "fresh-youtube-player/": "https://deno.land/x/fresh_youtube_player@0.9.0/"
   }
 }
 ```
@@ -25,7 +24,7 @@ You can use fresh-youtube-player only for the islands, because YouTube API is pr
 /** islands/Theater.tsx */
 import { h } from "preact";
 import { useRef, useCallback } from "preact/hooks";
-import { YouTubePlayer, PlayerHandler } from "fresh-youtube-player";
+import { YouTubePlayer, PlayerHandler } from "fresh-youtube-player/mod.ts";
 
 export default function Theater() {
   const playerHandler = useRef<PlayerHandler>();
