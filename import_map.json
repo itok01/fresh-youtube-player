@@ -1,0 +1,7 @@
+{
+  "imports": {
+    "preact": "https://esm.sh/preact@10.8.1",
+    "preact/": "https://esm.sh/preact@10.8.1/",
+    "youtube/": "https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/master/types/youtube/"
+  }
+}
