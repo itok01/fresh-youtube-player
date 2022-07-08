@@ -48,3 +48,7 @@ export default function Theater() {
   );
 }
 ```
+
+## Thanks
+- [feross/load-script2](https://github.com/feross/load-script2)
+- [@types/youtube](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/youtube)
